@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="26" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-17T23:12:37 ICT" name="Surefire suite" finished-at="2024-11-17T23:12:37 ICT" duration-ms="189">
+    <groups>
+    </groups>
+    <test started-at="2024-11-17T23:12:37 ICT" name="Surefire test" finished-at="2024-11-17T23:12:37 ICT" duration-ms="189">
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$TransferTest">
+        <test-method signature="testTransfer()" started-at="2024-11-17T23:12:37 ICT" name="testTransfer[TF003]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfer[TF003] -->
+        <test-method signature="testTransfer()" started-at="2024-11-17T23:12:37 ICT" name="testTransfer[TF001]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfer[TF001] -->
+        <test-method signature="testTransfer()" started-at="2024-11-17T23:12:37 ICT" name="testTransfer[TF004]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfer[TF004] -->
+        <test-method signature="testTransfer()" started-at="2024-11-17T23:12:37 ICT" name="testTransfer[TF002]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="104" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Kết quả chuyển khoản không khớp expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Kết quả chuyển khoản không khớp expected:<true> but was:<false>
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.failNotEquals(Assert.java:835)
+at org.junit.Assert.assertEquals(Assert.java:120)
+at com.mycompany.nhom09.lop02.BankAccountTest$TransferTest.testTransfer(BankAccountTest.java:535)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+at org.testng.TestRunner$1.run(TestRunner.java:691)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:600)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfer[TF002] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$TransferTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersAccountHolderTest">
+        <test-method signature="testGettersSettersAccountHolder()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountHolder[SH008]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountHolder[SH008] -->
+        <test-method signature="testGettersSettersAccountHolder()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountHolder[SH007]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountHolder[SH007] -->
+        <test-method signature="testGettersSettersAccountHolder()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountHolder[SH005]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountHolder[SH005] -->
+        <test-method signature="testGettersSettersAccountHolder()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountHolder[SH006]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="63" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ngoại lệ mong đợi: java.lang.IllegalArgumentException, nhưng nhận được: java.lang.IllegalArgumentException với thông báo: Tên chủ tài khoản không được chỉ chứa khoảng trắng.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ngoại lệ mong đợi: java.lang.IllegalArgumentException, nhưng nhận được: java.lang.IllegalArgumentException với thông báo: Tên chủ tài khoản không được chỉ chứa khoảng trắng.
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersAccountHolderTest.testGettersSettersAccountHolder(BankAccountTest.java:185)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+at org.testng.TestRunner$1.run(TestRunner.java:691)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:600)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountHolder[SH006] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersAccountHolderTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$DepositTest">
+        <test-method signature="testDeposit()" started-at="2024-11-17T23:12:37 ICT" name="testDeposit[DP007]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit[DP007] -->
+        <test-method signature="testDeposit()" started-at="2024-11-17T23:12:37 ICT" name="testDeposit[DP005]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit[DP005] -->
+        <test-method signature="testDeposit()" started-at="2024-11-17T23:12:37 ICT" name="testDeposit[DP006]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="90" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ngoại lệ mong đợi: java.lang.IllegalArgumentException, nhưng nhận được: java.lang.IllegalArgumentException với thông báo: Số tiền gửi phải khác 0.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ngoại lệ mong đợi: java.lang.IllegalArgumentException, nhưng nhận được: java.lang.IllegalArgumentException với thông báo: Số tiền gửi phải khác 0.
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at com.mycompany.nhom09.lop02.BankAccountTest$DepositTest.testDeposit(BankAccountTest.java:400)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+at org.testng.TestRunner$1.run(TestRunner.java:691)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:600)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit[DP006] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$DepositTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$WithdrawTest">
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD001]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD001] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD006]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD006] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD002]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD002] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD003]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD003] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD007]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD007] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD004]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD004] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD005]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD005] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD008]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD008] -->
+        <test-method signature="testWithdraw()" started-at="2024-11-17T23:12:37 ICT" name="testWithdraw[WD009]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw[WD009] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$WithdrawTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$ConstructorTest">
+        <test-method signature="testConstructor()" started-at="2024-11-17T23:12:37 ICT" name="testConstructor[CT011]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor[CT011] -->
+        <test-method signature="testConstructor()" started-at="2024-11-17T23:12:37 ICT" name="testConstructor[CT009]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor[CT009] -->
+        <test-method signature="testConstructor()" started-at="2024-11-17T23:12:37 ICT" name="testConstructor[CT010]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor[CT010] -->
+        <test-method signature="testConstructor()" started-at="2024-11-17T23:12:37 ICT" name="testConstructor[CT012]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="52" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Thông báo ngoại lệ mong đợi: "null", nhưng nhận được: "Tên chủ tài khoản không được chỉ chứa khoảng trắng.".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Thông báo ngoại lệ mong đợi: "null", nhưng nhận được: "Tên chủ tài khoản không được chỉ chứa khoảng trắng.".
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at com.mycompany.nhom09.lop02.BankAccountTest$ConstructorTest.testConstructor(BankAccountTest.java:126)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+at org.testng.TestRunner$1.run(TestRunner.java:691)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:600)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor[CT012] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$ConstructorTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersAccountNumberTest">
+        <test-method signature="testGettersSettersAccountNumber()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountNumber[SN005]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountNumber[SN005] -->
+        <test-method signature="testGettersSettersAccountNumber()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountNumber[SN008]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountNumber[SN008] -->
+        <test-method signature="testGettersSettersAccountNumber()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountNumber[SN007]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountNumber[SN007] -->
+        <test-method signature="testGettersSettersAccountNumber()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersAccountNumber[SN006]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersAccountNumber[SN006] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersAccountNumberTest -->
+      <class name="com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersBalanceTest">
+        <test-method signature="testGettersSettersBalance()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersBalance[BL002]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersBalance[BL002] -->
+        <test-method signature="testGettersSettersBalance()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersBalance[BL001]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersBalance[BL001] -->
+        <test-method signature="testGettersSettersBalance()" started-at="2024-11-17T23:12:37 ICT" name="testGettersSettersBalance[BL003]" finished-at="2024-11-17T23:12:37 ICT" duration-ms="88" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[argument type mismatch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: argument type mismatch
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters.createTestUsingConstructorInjection(BlockJUnit4ClassRunnerWithParameters.java:56)
+at org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters.createTest(BlockJUnit4ClassRunnerWithParameters.java:46)
+at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:260)
+at org.junit.runners.BlockJUnit4ClassRunner$2.runReflectiveCall(BlockJUnit4ClassRunner.java:309)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:306)
+at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+at org.testng.TestRunner$1.run(TestRunner.java:691)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+at org.testng.TestRunner.run(TestRunner.java:600)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassCastException: class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+at java.base/sun.invoke.util.ValueConversions.primitiveConversion(ValueConversions.java:247)
+at java.base/sun.invoke.util.ValueConversions.unboxDouble(ValueConversions.java:144)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+... 66 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersSettersBalance[BL003] -->
+      </class> <!-- com.mycompany.nhom09.lop02.BankAccountTest$GettersSettersBalanceTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
