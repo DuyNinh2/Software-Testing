@@ -1,0 +1,27 @@
+Test case ID,Result
+seleniumFC01,PASS
+seleniumFC02,PASS
+seleniumFC03,PASS
+seleniumFC05,PASS
+seleniumFC06,PASS
+seleniumFC07,PASS
+seleniumFC08,PASS
+seleniumFC09,PASS
+seleniumFC10,PASS
+seleniumFC11,PASS
+seleniumUI01,PASS
+seleniumUI02,PASS
+seleniumUI03,FAILED
+seleniumUI04,PASS
+seleniumUI05,FAILED
+seleniumUI06,PASS
+seleniumUI07,PASS
+seleniumUI08,PASS
+seleniumUI09,PASS
+seleniumUI10,FAILED
+seleniumUI11,FAILED
+seleniumUI12,PASS
+seleniumUI13,PASS
+seleniumUI14,PASS
+seleniumUI15,PASS
+seleniumUI16,PASS
